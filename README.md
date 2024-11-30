@@ -66,3 +66,31 @@ Effective Requirement Analysis involves several key activities that ensure a com
 
 By following these activities systematically, project teams can establish a solid foundation for the software development process, reducing risks and improving overall project outcomes.
 
+## Types of Requirements
+
+In software development, requirements are broadly classified into two categories: Functional Requirements and Non-functional Requirements. Below is a breakdown of these requirements with specific examples related to a booking management project.
+
+### Functional Requirements
+
+Functional Requirements define the specific behavior or functions of the system. They describe *what the system should do* to fulfill its purpose.
+
+#### Examples for the Booking Management Project:
+- Users can create, update, and cancel bookings.
+- The system should allow users to view available time slots for appointments.
+- Admins can manage bookings, including marking appointments as attended or not attended.
+- Notifications should be sent to users to confirm booking details.
+- The system should validate user inputs (e.g., ensuring all required fields in the booking form are completed).
+
+### Non-functional Requirements
+
+Non-functional Requirements specify the *quality attributes* of the system. They describe *how the system performs* its functions.
+
+#### Examples for the Booking Management Project:
+- The system must handle at least 100 concurrent users without performance degradation.
+- Booking confirmations should be sent to users within 2 seconds of submission.
+- The interface should be user-friendly, with a responsive design that works on mobile and desktop devices.
+- The system should ensure data security by encrypting sensitive user information.
+- The system must have a 99.9% uptime availability.
+
+Understanding and documenting both functional and non-functional requirements is critical to building a system that not only meets user needs but also delivers a high-quality user experience.
+
